@@ -1,0 +1,36 @@
+.titlec {
+  font-size: small;
+}
+ul.videos li {
+  float: left;
+  width: 10em;
+  margin-bottom: 1em;
+}
+ul.videos
+{
+  margin-bottom: 1em;
+  padding-left : 0em;
+  margin-left: 0em;
+  list-style: none;
+}
+.movie {
+				width: 100%;
+				clear: both;
+			}
+			.movie div.thumb {
+				float: left;
+				margin-right: 10px;
+				cursor: pointer;
+				border: solid 1px blue;
+			}
+			.movie div.details {
+				width: 100%;
+				height: 100%;
+			}
+			.movie div.details p.title {
+				font-weight: bold;
+				cursor: pointer;
+			}
+			.movie div.details p.desc {
+				font-weight: normal;
+			}
